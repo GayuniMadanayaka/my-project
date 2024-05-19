@@ -1,4 +1,10 @@
 # main.py
+from module import Module
+
+module= Module("Text analytics")
+print(module)
+
+
 
 def add_numbers(a, b):
     """Returns the sum of two numbers."""
