@@ -1,4 +1,8 @@
 # main.py
+from person import Person
+
+person = Person("Tom")
+print(person)
 
 def add_numbers(a, b):
     """Returns the sum of two numbers."""
